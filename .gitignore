@@ -1,0 +1,21 @@
+# Private and local material
+private/
+raw/
+internal/
+*.zip
+*.7z
+*.log
+
+# Credentials and local configuration
+.env
+.env.*
+*.key
+*.pem
+credentials*
+secrets*
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
