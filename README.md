@@ -73,4 +73,3 @@ The public method is meant to show how I work. It is not a complete copy of the 
 ## Project record
 
 Portfolio workflow documented in 2026.
-

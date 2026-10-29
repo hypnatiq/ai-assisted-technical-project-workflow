@@ -43,4 +43,3 @@ The workflow uses manifests, hashes, decision records, and acceptance checks to 
 Limit:
 
 Copying a package does not prove the receiving computer applied, tested, or accepted it.
-

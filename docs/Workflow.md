@@ -56,4 +56,3 @@ Before sharing anything:
 I make the final decision about whether the work is ready to use, needs another test, should remain private, or can be published.
 
 AI assistance does not replace that approval.
-

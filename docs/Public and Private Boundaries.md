@@ -24,4 +24,3 @@
 The public project should show how I think and validate work without exposing the private information or complete configuration needed to recreate my personal assistant environment.
 
 This keeps the portfolio useful while protecting the parts that are personal, sensitive, or still unfinished.
-
