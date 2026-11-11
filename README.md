@@ -2,9 +2,9 @@
 
 ## What this project is
 
-AI helps me get from an idea to something I can test faster. I explain what I need, review the work, check the evidence, and decide what is ready to use.
+I use AI to speed up research, documentation, testing, and project work while keeping validation and final decisions in my hands.
 
-I use it to help with research, implementation, documentation, and troubleshooting. I still decide what the project should do, what needs to be tested, what can be shared, and whether the result is actually ready.
+That means I define what the project should do, set the safety and privacy boundaries, review the work, check the evidence, and decide what is ready to use. AI can help with implementation and troubleshooting, but I do not treat generated output as proof.
 
 This repository documents that workflow without publishing the private instructions or personal context that make my assistant specific to me.
 
