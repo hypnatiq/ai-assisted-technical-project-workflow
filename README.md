@@ -8,7 +8,11 @@ That means I define what the project should do, set the safety and privacy bound
 
 This repository documents that workflow without publishing the private instructions or personal context that make my assistant specific to me.
 
-## What the workflow does
+## Why I documented it
+
+AI can make a project move faster, but speed is not the same as proof. I wanted one public record of the checks I use to keep requirements, privacy, evidence, failed results, and final approval under my control.
+
+## How I work
 
 1. Define the result I want and the limits that must stay in place.
 2. Separate verified facts from assumptions, suggestions, and unfinished work.
@@ -34,7 +38,7 @@ AI can help produce and review work, but it does not replace those decisions.
 
 ### HypNO
 
-I used the workflow to define investigation requirements, review source changes, separate source testing from installed behavior, organize QA evidence, and prepare technical documentation. The HypNO `0.83.9-dev` source candidate completed an AI-assisted 1,093-test regression with zero failures. That result applies to the tested source candidate and does not by itself prove installation or live network behavior.
+I used the workflow to define investigation requirements, review source changes, separate source testing from installed behavior, organize QA evidence, and prepare technical documentation. A source-test result applies only to the tested candidate. It does not prove installation or live network behavior on another computer.
 
 ### AstrasGZ network traffic analysis
 
@@ -43,6 +47,10 @@ I used the workflow to organize packet-capture evidence, separate observations f
 ### IT support documentation
 
 I used the workflow to structure runbooks and troubleshooting guides around evidence, controlled changes, escalation, rollback, and validation so another technician can follow the work.
+
+### Enterprise home network virtual lab
+
+I used the workflow to define the isolated Hyper-V architecture, preserve recovery boundaries, review failures and corrections, validate accepted and denied network paths, and separate virtual lab results from physical or production claims.
 
 ### Project handoffs
 
@@ -59,17 +67,8 @@ I use manifests, SHA-256 hashes, decision records, and acceptance checks when wo
 
 The public method is meant to show how I work. It is not a complete copy of the private assistant environment.
 
-## Repository contents
+## Where to start
 
-- `docs/Workflow.md` - the repeatable project process
-- `docs/Project Examples.md` - examples and evidence limits
-- `docs/Public and Private Boundaries.md` - what can and cannot be shared
-
-## Resume description
-
-- Created a repeatable AI-assisted workflow for turning technical ideas into documented, testable projects while retaining ownership of requirements, validation, privacy decisions, and final approval.
-- Used the workflow across network analysis, Windows support documentation, application QA, and project handoffs, with evidence and privacy checks before anything was used or shared.
-
-## Project record
-
-Portfolio workflow documented in 2026.
+1. Read [`docs/Workflow.md`](docs/Workflow.md) for the repeatable process.
+2. Read [`docs/Project Examples.md`](docs/Project%20Examples.md) for real examples and their limits.
+3. Read [`docs/Public and Private Boundaries.md`](docs/Public%20and%20Private%20Boundaries.md) for what I share and what stays private.

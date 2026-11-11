@@ -4,15 +4,9 @@
 
 The workflow helped organize requirements, source changes, regression testing, documentation, screenshots, and evidence limits for a Windows network investigation application.
 
-Verified example:
-
-- HypNO `0.83.9-dev` source candidate
-- AI-assisted regression review
-- 1,093 tests completed with zero failures
-
 Limit:
 
-The source result does not automatically prove that a packaged build was installed or that live firewall and network behavior passed on another computer.
+Source testing, interface screenshots, packaging, installation, and live firewall behavior are separate results. One does not automatically prove the next.
 
 ## AstrasGZ network traffic analysis
 
@@ -35,6 +29,21 @@ The workflow helped structure technical guides so each one identifies the eviden
 Limit:
 
 A written guide still needs review against the real environment and permissions before another technician uses it.
+
+## Enterprise home network virtual lab
+
+The workflow helped define an isolated Hyper-V architecture, test AD and DNS, review OPNsense segmentation, preserve accepted and denied paths, document EAP-TLS results, and keep failed tests in the final record.
+
+Verified example:
+
+- Seven private Hyper-V switches with no household-network binding
+- Accepted and denied segmentation paths
+- FreeRADIUS EAP-TLS accept and reject results
+- Diskless PXE DHCP and WDS service response
+
+Limit:
+
+The evidence supports a virtual learning environment. It does not prove physical NAC, household-network deployment, Windows image deployment, or independent production administration.
 
 ## Cross-computer handoffs
 
