@@ -4,7 +4,7 @@
 
 I use AI to speed up research, documentation, testing, and project work while keeping validation and final decisions in my hands.
 
-That means I define what the project should do, set the safety and privacy boundaries, review the work, check the evidence, and decide what is ready to use. AI can help with implementation and troubleshooting, but I do not treat generated output as proof.
+I define what the project should do, set the safety and privacy limits, review the work, check the evidence, and decide what is ready to use. AI helps me move through implementation and troubleshooting faster, while the final decision stays with me.
 
 This repository documents that workflow without publishing the private instructions or personal context that make my assistant specific to me.
 
@@ -50,7 +50,7 @@ I used the workflow to structure runbooks and troubleshooting guides around evid
 
 ### Enterprise home network virtual lab
 
-I used the workflow to define the isolated Hyper-V architecture, preserve recovery boundaries, review failures and corrections, validate accepted and denied network paths, and separate virtual lab results from physical or production claims.
+I used the workflow to build and validate a virtual version of the home network I plan to implement. The lab lets me practice identity, routing, segmentation, authentication, and deployment work now, then use the results to guide the physical build as I acquire the firewall, switching, wireless, server, backup, and power equipment.
 
 ### Project handoffs
 
@@ -72,3 +72,4 @@ The public method is meant to show how I work. It is not a complete copy of the 
 1. Read [`docs/Workflow.md`](docs/Workflow.md) for the repeatable process.
 2. Read [`docs/Project Examples.md`](docs/Project%20Examples.md) for real examples and their limits.
 3. Read [`docs/Public and Private Boundaries.md`](docs/Public%20and%20Private%20Boundaries.md) for what I share and what stays private.
+
